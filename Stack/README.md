@@ -4,7 +4,7 @@ Stack
 
 示意图
 ------
-![](image/simplereversal.png)
+![](Image/simplereversal.png)
 
 栈操作
 ------
@@ -25,6 +25,7 @@ Stack
 * [十进制转换二进制](#十进制转换二进制)
 * [十进制转换任意进制](#十进制转换任意进制)
 * [中缀表达式转后缀](#中缀表达式转后缀)
+* [后缀表达式求值](#后缀表达式求值)
 
 应用展示
 ------
@@ -96,4 +97,16 @@ True
 'AB+CD+*'
 >>> infix_to_postfix('A * (B + C) * D')
 'ABC+*D*'
+```
+
+#### [后缀表达式求值](postfixEvaluation.py)
+```Python
+# 后缀表达式求值
+>>> from postfixEvaluation import postfix_eval
+>>> postfix_eval('11+')
+2
+>>> postfix_eval('21*21--')
+1
+>>> postfix_eval('21/21*/')
+1.0
 ```
