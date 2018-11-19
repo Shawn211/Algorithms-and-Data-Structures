@@ -11,6 +11,7 @@ Algorithms-and-Data-Structures
 ## 目录
 * [Stack：栈](#Stack：栈)
 * [Queue：队列](#Queue：队列)
+* [Deque：双端队列](#Deque：双端队列)
 
 ******
 [Stack：栈](Stack/README.md)
@@ -44,6 +45,22 @@ Algorithms-and-Data-Structures
 * 队列实现
 * 实际应用
     * 约瑟夫斯置换
+* 应用展示
+
+******
+[Deque：双端队列](Deque/README.md)
+------
+* 基本概念
+* Deque操作
+    * add_front(item)
+    * add_rear(item)
+    * remove_front()
+    * remove_rear()
+    * is_empty()
+    * size()
+* Deque实现
+* 实际应用
+    * 回文检查
 * 应用展示
 
 ******
