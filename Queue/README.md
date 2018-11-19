@@ -6,14 +6,14 @@ Queue
 ------
 ![](Image/basicqueue.png)
 
-栈操作
+队列操作
 ------
 * enqueue(item) 添加新项到队列的队尾。item 做参数并不返回任何内容。
 * dequeue() 从队首移除项，不需要参数并返回该项。
 * is_empty() 判断队列是否为空，并返回布尔值。
 * size() 返回队列中项的数量。
 
-栈的实现
+队列实现
 ------
 * [Queue](Queue.py)
 
