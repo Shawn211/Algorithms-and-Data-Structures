@@ -10,6 +10,7 @@ Algorithms-and-Data-Structures
 ******
 ## 目录
 * [Stack：栈](#Stack：栈)
+* [Queue：队列](#Queue：队列)
 
 ******
 [Stack：栈](Stack/README.md)
@@ -29,6 +30,20 @@ Algorithms-and-Data-Structures
     * 十进制转换任意进制
     * 中缀表达式转后缀
     * 后缀表达式求值
+* 应用展示
+
+******
+[Queue：队列](Queue/README.md)
+------
+* 基本概念
+* 队列操作
+    * enqueue(item)
+    * dequeue()
+    * is_empty()
+    * size()
+* 队列实现
+* 实际应用
+    * 约瑟夫斯置换
 * 应用展示
 
 ******
