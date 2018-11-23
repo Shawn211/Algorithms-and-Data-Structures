@@ -13,6 +13,7 @@ Algorithms-and-Data-Structures
 * [Queue：队列](#Queue：队列)
 * [Deque：双端队列](#Deque：双端队列)
 * [LinkedList：链表](#LinkedList：链表)
+* [Recursion：递归](#Recursion：递归)
 
 ******
 [Stack：栈](Stack/README.md)
@@ -93,6 +94,21 @@ Algorithms-and-Data-Structures
    * 无序链表
    * 有序列表
 * 实现展示
+
+******
+[Recursion：递归](Recursion/README.md)
+------
+* 基本概念
+* 递归三定律
+* 实际应用
+   * 计算整数列表和
+   * 十进制转换任意进制字符串
+   * 可视化递归
+      * 螺旋
+      * 分形树
+      * 谢尔宾斯基三角形
+   * 汉诺塔
+* 应用展示
 
 ******
 推荐书籍
