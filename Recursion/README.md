@@ -17,6 +17,7 @@ Recursion
    * [分形树](#分形树)
    * [谢尔宾斯基三角形](#谢尔宾斯基三角形)
 * [汉诺塔](#汉诺塔)
+* [找零](#找零)
 
 应用展示
 ------
@@ -65,4 +66,22 @@ Recursion
 'moving "1" from WithPole to FromPole'
 'moving "2" from WithPole to ToPole'
 'moving "1" from FromPole to ToPole'
+```
+
+#### [找零](makeChange.py)
+```Python
+# 找零
+>>> from makeChange import make_change, get_changes
+>>> coins = [1, 5, 10, 20]
+>>> change = 27
+>>> know_change_num = [0] * 28
+>>> min_coins_list = [0] * 28
+>>> make_change(coins, change, know_change_num, min_coins_list)
+4
+>>> get_changes(change, min_coins_list)
+[1, 1, 5, 20]
+>>> know_change_num
+[0, 1, 2, 3, 4, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 2, 3, 4]
+>>> min_coins_list
+[0, 1, 1, 1, 1, 5, 1, 1, 1, 1, 10, 1, 1, 1, 1, 5, 1, 1, 1, 1, 20, 1, 1, 1, 1, 5, 1, 1]
 ```

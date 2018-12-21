@@ -23,8 +23,8 @@ to_pole_stack = Stack()
 with_pole_stack = Stack()
 s = dict()
 s[str(from_pole_stack)] = 'FromPole'
-s[str(to_pole_stack)] = 'ToPole'
 s[str(with_pole_stack)] = 'WithPole'
+s[str(to_pole_stack)] = 'ToPole'
 
 
 def move_tower(height, from_pole, to_pole, with_pole):
