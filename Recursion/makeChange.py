@@ -8,7 +8,7 @@ def make_change(coins, change, know_change_num, min_coins_list):
         return know_change_num[change]
     else:
         for i in [c for c in coins if c <= change]:
-            coins_num = 1 + make_change(coins, change-i, know_change_num, min_coins_list)
+            coins_num = 1 + make_change(coins, change - i, know_change_num, min_coins_list)
             if coins_num < min_coins_num:
                 min_coins_num = coins_num
                 min_coins_list[change] = i

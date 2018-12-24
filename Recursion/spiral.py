@@ -5,7 +5,7 @@ def draw_spiral(mt, ll):
     if ll > 0:
         mt.forward(ll)
         mt.right(90)
-        draw_spiral(mt, ll-10)
+        draw_spiral(mt, ll - 10)
 
 
 def main():

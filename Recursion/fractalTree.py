@@ -7,10 +7,10 @@ def tree(mt, branch_length):
         mt.forward(branch_length)
         x = random.randrange(0, 45)
         mt.right(x)
-        tree(mt, branch_length-20)
+        tree(mt, branch_length - 20)
         y = random.randrange(0, 45)
         mt.left(x + y)
-        tree(mt, branch_length-20)
+        tree(mt, branch_length - 20)
         mt.right(y)
         mt.backward(branch_length)
 

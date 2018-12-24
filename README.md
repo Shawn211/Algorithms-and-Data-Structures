@@ -9,11 +9,14 @@ Algorithms-and-Data-Structures
 
 ******
 ## 目录
-* [Stack：栈](#Stack-栈)
-* [Queue：队列](#Queue-队列)
-* [Deque：双端队列](#Deque-双端队列)
-* [LinkedList：链表](#LinkedList-链表)
-* [Recursion：递归](#Recursion-递归)
+* 数据结构
+   * [Stack：栈](#Stack-栈)
+   * [Queue：队列](#Queue-队列)
+   * [Deque：双端队列](#Deque-双端队列)
+   * [LinkedList：链表](#LinkedList-链表)
+   * [Recursion：递归](#Recursion-递归)
+* 算法
+   * [Searching：查找](#Searching-查找)
 
 ******
 [Stack 栈](Stack/README.md)
@@ -108,6 +111,19 @@ Algorithms-and-Data-Structures
       * 分形树
       * 谢尔宾斯基三角形
    * 汉诺塔
+   * 找零
+* 应用展示
+
+******
+[Searching 查找](Searching/README.md)
+------
+* 基本概念
+* 实际应用
+   * 顺序查找
+      * 无序列表顺序查找
+      * 有序列表顺序查找
+   * 二分查找
+   * HashTable
 * 应用展示
 
 ******

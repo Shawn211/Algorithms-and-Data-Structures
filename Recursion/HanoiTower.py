@@ -29,9 +29,9 @@ s[str(to_pole_stack)] = 'ToPole'
 
 def move_tower(height, from_pole, to_pole, with_pole):
     if height > 0:
-        move_tower(height-1, from_pole, with_pole, to_pole)
+        move_tower(height - 1, from_pole, with_pole, to_pole)
         move_disk(from_pole, to_pole)
-        move_tower(height-1, with_pole, to_pole, from_pole)
+        move_tower(height - 1, with_pole, to_pole, from_pole)
 
 
 def move_disk(fp, tp):
@@ -42,7 +42,7 @@ def move_disk(fp, tp):
 
 def hanoi_tower(num):
     disks_num = num
-    disks = [str(i) for i in range(1, disks_num+1)]
+    disks = [str(i) for i in range(1, disks_num + 1)]
     disks.reverse()
     for disk in disks:
         from_pole_stack.push(disk)
