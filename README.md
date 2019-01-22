@@ -17,6 +17,7 @@ Algorithms-and-Data-Structures
    * [Recursion：递归](#Recursion-递归)
 * 算法
    * [Searching：查找](#Searching-查找)
+   * [Sorting：排序](#Sorting-排序)
 
 ******
 [Stack 栈](Stack/README.md)
@@ -124,6 +125,19 @@ Algorithms-and-Data-Structures
       * 有序列表顺序查找
    * 二分查找
    * HashTable
+* 应用展示
+
+******
+[Sorting 排序](Sorting/README.md)
+------
+* 基本概念
+* 实际应用
+   * 冒泡排序
+   * 选择排序
+   * 插入排序
+   * 希尔排序
+   * 归并排序
+   * 快速排序
 * 应用展示
 
 ******
