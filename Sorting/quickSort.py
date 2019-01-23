@@ -4,17 +4,24 @@ def quick_sort(l):
 
 def quick_sort_helper(l, first, last):
     if first < last:
-        split_point = partition(l, first, last)
+        mid = (last - first) // 2 + first
+        sorted_list = sorted([l[first], l[mid], l[last]])
+        if mid != first and mid != last:
+            l[first], l[first + 1], l[mid], l[last] = sorted_list[0], sorted_list[1], l[first + 1], sorted_list[2]
 
-        quick_sort_helper(l, first, split_point - 1)
-        quick_sort_helper(l, split_point + 1, last)
+            split_point = partition(l, first, last)
+
+            quick_sort_helper(l, first, split_point - 1)
+            quick_sort_helper(l, split_point + 1, last)
+        else:
+            l[first], l[last] = sorted_list[0], sorted_list[2]
 
 
 def partition(l, first, last):
-    pivot_value = l[first]
+    pivot_value = l[first + 1]
 
-    left_mark = first + 1
-    right_mark = last
+    left_mark = first + 2
+    right_mark = last - 1
 
     done = False
 
@@ -30,13 +37,14 @@ def partition(l, first, last):
         else:
             done = True
 
-    l[first], l[right_mark] = l[right_mark], l[first]
+    l[first + 1], l[right_mark] = l[right_mark], l[first + 1]
 
     return right_mark
 
 
 def main():
-    test_list = [211, 21, 71, 711, 11]
+    import random
+    test_list = [random.randrange(21)]
     quick_sort(test_list)
     print(test_list)
 
