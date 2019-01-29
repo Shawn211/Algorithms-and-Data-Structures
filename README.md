@@ -14,8 +14,9 @@ Algorithms-and-Data-Structures
    * [Queue：队列](#Queue-队列)
    * [Deque：双端队列](#Deque-双端队列)
    * [LinkedList：链表](#LinkedList-链表)
-   * [Recursion：递归](#Recursion-递归)
+   * [Tree：树](#Tree-树)
 * 算法
+   * [Recursion：递归](#Recursion-递归)
    * [Searching：查找](#Searching-查找)
    * [Sorting：排序](#Sorting-排序)
 
@@ -100,6 +101,51 @@ Algorithms-and-Data-Structures
 * 实现展示
 
 ******
+[Tree 树](Tree/README.md)
+------
+* 基本概念
+* 二叉树操作
+   * insert_left(new_node)
+   * insert_right(new_node)
+   * get_left_child()
+   * get_right_child()
+   * set_root_value(new_value)
+   * get_root_value()
+* 二叉堆操作
+   * 最小堆
+      * insert(value)
+      * find_min()
+      * del_min()
+      * is_empty()
+      * size()
+      * build_heap(list)
+   * 最大堆
+      * insert(value)
+      * find_max()
+      * del_max()
+      * is_empty()
+      * size()
+      * build_heap(list)
+* 二叉查找树操作
+   * put(key, value)
+   * get(key)
+   * del
+   * len()
+   * in
+* 树实现
+   * 二叉树
+      * 列表表示
+      * 节点表示
+   * 二叉堆
+   * 二叉查找树
+   * AVL平衡二叉查找树
+* 实际应用
+   * 分析树
+   * 树的遍历
+   * 二叉堆排序
+* 实现展示
+
+******
 [Recursion 递归](Recursion/README.md)
 ------
 * 基本概念
@@ -119,26 +165,26 @@ Algorithms-and-Data-Structures
 [Searching 查找](Searching/README.md)
 ------
 * 基本概念
-* 实际应用
+* 查找实现
    * 顺序查找
       * 无序列表顺序查找
       * 有序列表顺序查找
    * 二分查找
    * HashTable
-* 应用展示
+* 实现展示
 
 ******
 [Sorting 排序](Sorting/README.md)
 ------
 * 基本概念
-* 实际应用
+* 排序实现
    * 冒泡排序
    * 选择排序
    * 插入排序
    * 希尔排序
    * 归并排序
    * 快速排序
-* 应用展示
+* 实现展示
 
 ******
 推荐书籍
